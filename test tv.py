@@ -21,3 +21,5 @@ class TV:
     
     def get_volume(self):
         return self.volume
+    
+class TestTV:
