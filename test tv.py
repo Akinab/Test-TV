@@ -28,3 +28,4 @@ class TestTV:
         self.tv2 = None
 
     def create_tvs(self):
+        input_text = input("\nEnter 'Test TV' to display tvs: ")
