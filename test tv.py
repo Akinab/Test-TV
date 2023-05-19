@@ -6,3 +6,6 @@ def details ():
 details ()
 
 class TV:
+    def __init__(self):
+        self.channel = 1
+        self.volume = 1
