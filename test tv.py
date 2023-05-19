@@ -26,3 +26,5 @@ class TestTV:
     def __init__(self):
         self.tv1 = None
         self.tv2 = None
+
+    def create_tvs(self):
