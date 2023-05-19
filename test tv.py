@@ -9,3 +9,6 @@ class TV:
     def __init__(self):
         self.channel = 1
         self.volume = 1
+
+    def set_channel(self, channel):
+        self.channel = channel
