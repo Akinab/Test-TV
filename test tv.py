@@ -23,3 +23,6 @@ class TV:
         return self.volume
     
 class TestTV:
+    def __init__(self):
+        self.tv1 = None
+        self.tv2 = None
