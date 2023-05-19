@@ -18,3 +18,6 @@ class TV:
 
     def get_channel(self):
         return self.channel
+    
+    def get_volume(self):
+        return self.volume
