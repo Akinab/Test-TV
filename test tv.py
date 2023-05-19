@@ -22,6 +22,7 @@ class TV:
     def get_volume(self):
         return self.volume
     
+    
 class TestTV:
     def __init__(self):
         self.tv1 = None
@@ -44,4 +45,7 @@ class TestTV:
             print("tv2's channel is", self.tv2.get_channel(), "and volume level is", self.tv2.get_volume())
 
 
-        
+# Create TestTV object and display TV information
+test_tv = TestTV()
+test_tv.create_tvs()
+test_tv.display_tv_info()     
