@@ -32,3 +32,5 @@ class TestTV:
         if input_text == "Test tv":
             self.tv1 = TV()
             self.tv2 = TV()
+
+    def display_tv_info(self):
