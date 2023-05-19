@@ -34,3 +34,8 @@ class TestTV:
             self.tv2 = TV()
 
     def display_tv_info(self):
+        if self.tv1 is not None and self.tv2 is not None:
+            self.tv1.set_channel(30)
+            self.tv1.set_volume(3)
+            self.tv2.set_channel(3)
+            self.tv2.set_volume(2)
