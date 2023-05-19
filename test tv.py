@@ -29,3 +29,6 @@ class TestTV:
 
     def create_tvs(self):
         input_text = input("\nEnter 'Test TV' to display tvs: ")
+        if input_text == "Test tv":
+            self.tv1 = TV()
+            self.tv2 = TV()
